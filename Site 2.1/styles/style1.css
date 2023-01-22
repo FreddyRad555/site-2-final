@@ -1,0 +1,231 @@
+*::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10;
+  border: none;
+  
+}
+html,body {
+  height: 100%;
+  min-width: 200px;
+}
+
+
+.header{
+          max-height: 28%;
+          max-width: 980px;
+          background-color: #b0b0b0;
+          display: flex;
+          flex-direction: column;
+          padding-top: 10px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 20px;
+          font-family: PT Sans;
+}
+.header-top{
+  display: flex;
+  max-width: 980px;
+
+}
+
+.company{
+  width: 20%;
+  float: left;
+  font-size: 1.5vw;
+}
+.text1{
+  width: 20%;
+  padding-right: 40px;
+  font-size: 1.5vw;
+  color: white;
+  margin-left: auto;
+}
+.amg{
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  max-height: 10vw;
+}
+.pic{
+  max-width: 10vw;
+}
+.menu {
+background:gray;
+}
+.menu a{
+  display:block;
+  text-align: center;
+  background:gray;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 20%;
+  height:30px;
+  padding-top:12px;
+  float: left;
+  font-size:14pt;
+  font-style: bold;
+  letter-spacing:1px;
+  padding-right: 2%;
+  padding-left: 2%;
+  text-align:center;
+  text-decoration: none;
+  color:white;
+  font-family:PT Sans;
+  transition-duration: 0.2s;
+}
+.main_menu{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%
+}
+.menublock{
+	display: flex;
+  max-width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+  height: 50px;
+}
+a:hover{
+  background-color: white;
+  text-decoration: underline;
+  text-decoration-color: black;
+  color: black;
+}
+.img {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  max-width: 980px;
+  margin-top: 0;
+}
+.bigblock {
+  display: flex;
+  max-width: 980px;
+  min-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  flex-direction: coloumn;
+  display: table;
+  clear: both;
+  
+}
+.list{
+  max-width: 35%;
+  max-height: 30%;
+  font-size:1.5vw;
+  font-style: bold;
+  letter-spacing:1px;
+  text-align:center;
+  text-decoration: none;
+  background: gray;
+  color: white;
+  font-family:PT Sans;
+  line-height: 4vw;
+  padding-right: 3vw;
+  float: left;
+}
+.centerblock{
+  width: 52%;
+  margin-left: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: block;
+  background: white;
+  font-size:1.5vw;
+  font-style: bold;
+  letter-spacing:1px;
+  font-family:PT Sans;
+  float: left;
+}
+@media screen and (max-width: 400px){
+  .centerblock{
+    width:auto;
+  }
+  .list{
+    width: auto;
+  }
+}
+
+.footer{
+  height: 25%;
+          display: flex;
+          max-width: 980px;
+          background-color: gray;
+          position: static;
+          align-content: center;
+          text-align: left;
+          padding-left: 2%;
+          padding-right: 20px;
+          padding-top: 3%;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 42%;
+          font-family: PT Sans;
+}
+.coloumn1{
+  width: 15%;
+  margin-left: 3%;
+  margin-right: 3%;
+  height: 30%;
+  font-size:1.2vw;
+  font-style: bold;
+  letter-spacing:1px;
+  text-align:center;
+  text-decoration: none;
+  background: agua;
+  color: white;
+  font-family:PT Sans;
+  line-height: 60px;
+  float:left;
+}
+.small{
+  width:50;
+background:gray;
+margin-left: 5%;
+  margin-right: 5%;
+padding-right: 10px;
+  float: left;
+}
+.small_menu{
+  padding-left: 5%;
+  padding-right: 10%;
+}
+  .small a{
+  display:flex;
+  background:gray;
+  max-width: 110px;
+  height:10%;
+  padding-top:10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  float: left;
+  font-size:1vw;
+  font-style: bold;
+  letter-spacing:1px;
+  text-align:center;
+  text-decoration: none;
+  color:white;
+  font-family:PT Sans;
+  transition-duration: 0.2s;
+    margin-bottom: 2px;
+  
+}
+.coloumn2{
+  width: 25%;
+  height: 40%;
+  margin-top: 2%;
+  margin-left:5%;
+  margin-right: 5%;
+  height: 30%;
+  font-size:1.1vw;
+  letter-spacing:1px;
+  text-align:center;
+  text-decoration: none;
+  background: gray;
+  color: white;
+  font-family:PT Sans;
+  line-height: 3vw;
+  float: right;
+}
